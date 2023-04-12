@@ -73,18 +73,18 @@ const Navbar = () => {
                            </div>
                     </div> */}
                     <div onClick={handlenav} className={ham ? 'sm:hidden overflow-y-hidden bg-slate-600 bg-opacity-80 text-center space-y-5 py-4 absolute top-10 right-0 ease-in duration-300 text-black ': 'ease-in duration-500 absolute top-0 right-[-100%] '}>
-                           <div className=''>
+                           <div className='content'>
                             <li className="list-none my-3 text-xl">
-                                <a href="#prog" className="mx-1" >Programs</a>
+                                <a href="#prog" className="mx-1  hover:bg-black hover:bg-opacity-10 hover:rounded-md hover:border-b hover:tracking-wider hover:border-[#5a45b2]" >Programs</a>
                             </li>
                             <li className="list-none my-3 text-xl">
-                                <a href="#about" className="mx-1" >About</a>
+                                <a href="#about" className="mx-1  hover:bg-black hover:bg-opacity-10 hover:rounded-md hover:border-b hover:tracking-wider hover:border-[#5a45b2]" >About</a>
                             </li>
                             <li className="list-none my-3 text-xl">
-                                <a href="#testi" className="mx-1" >Testinomial</a>
+                                <a href="#testi" className="mx-1  hover:bg-black hover:bg-opacity-10 hover:rounded-md hover:border-b hover:tracking-wider hover:border-[#5a45b2]" >Testinomial</a>
                             </li>
                             <li className="list-none my-3 text-xl">
-                                <a href="#contact" className="mx-1" >Contact</a>
+                                <a href="#contact" className="mx-1  hover:bg-black hover:bg-opacity-10 hover:rounded-md hover:border-b hover:tracking-wider hover:border-[#5a45b2]" >Contact</a>
                             </li>
                            </div>
                     </div>
