@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.heading{
+    font-family: 'Cormorant Garamond', serif;
+
+}
+.content{
+    font-family: 'Source Serif Pro', serif;
+}
+.clip2{
+    clip-path: polygon(50% 0, 100% 10%, 100% 100%, 0 100%, 0 10%);
+}
