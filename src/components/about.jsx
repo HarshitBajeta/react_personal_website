@@ -4,7 +4,7 @@ const About = () => {
   
   return (
     <>
-    <div className='xx text-white bg-[#0b0309] flex md:flex-row flex-col pb-1 mt-0 clip2 sm:mx-2 md:mx-0 ' >
+    <div id='about' className='text-white bg-[#0b0309] flex md:flex-row flex-col pb-1 mt-0 clip2 sm:mx-2 md:mx-0 ' >
         <div className='flex-1 md:py-10px ' data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in" >
         <img className='lg:py-28 lg:px-28 md:py-[100px] md:px-[28px] px-[90px] pt-[50px]' src="/teacher-6.png" />
         </div>

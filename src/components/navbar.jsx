@@ -17,23 +17,23 @@ const Navbar = () => {
                         <img className="h-8 mx-2 pr-2" src="/logo-logo.png" alt="" />
                         <li
                             className="list-none px-4 py-1 hover:bg-black hover:bg-opacity-10 hover:rounded-md hover:border-b hover:tracking-wider hover:border-[#5a45b2]">
-                            <a href="#" className="no-underline">Home</a>
+                            <a href="#home" className="no-underline">Home</a>
                         </li>
                         <li
                             className="list-none px-4 py-1 hover:bg-black hover:bg-opacity-10 hover:rounded-md hover:border-b hover:tracking-wider hover:border-[#5a45b2]">
-                            <a href="#" className="no-underline">Programs</a>
+                            <a href="#prog" className="no-underline">Programs</a>
                         </li>
                         <li
                             className="list-none px-4 py-1 hover:bg-black hover:bg-opacity-10 hover:rounded-md hover:border-b hover:tracking-wider hover:border-[#5a45b2]">
-                            <a href="#" className="no-underline">About</a>
+                            <a href="#about" className="no-underline">About</a>
                         </li>
                         <li
                             className="list-none px-4 py-1 hover:bg-black hover:bg-opacity-10 hover:rounded-md hover:border-b hover:tracking-wider hover:border-[#5a45b2]">
-                            <a href="#" className="no-underline">Testinomial</a>
+                            <a href="#testi" className="no-underline">Testinomial</a>
                         </li>
                         <li
                             className="list-none px-4 py-1 hover:bg-black hover:bg-opacity-10 hover:rounded-md hover:border-b hover:tracking-wider hover:border-[#5a45b2]">
-                            <a href="#" className="no-underline">Contact</a>
+                            <a href="#contact" className="no-underline">Contact</a>
                         </li>
                     </div>
                     <div className='hidden md:flex justify-between mx-2'>

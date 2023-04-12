@@ -15,7 +15,7 @@ export default class SimpleSlider extends Component {
       slidesToScroll: 1
     };
     return (
-      <div className=" bg-[#0b0309] text-white ">
+      <div id="testi" className=" bg-[#0b0309] text-white ">
        <h1 className="text-5xl text-center py-10 heading" data-aos="fade" data-aos-duration="3000">Testinomial</h1>
         <Slider {...settings} className="mx-28 pb-10 content">
         {test_card_data.map((val)=>{

@@ -4,7 +4,7 @@ function ContactForm() {
 
   return (
     <section class='bg-[#0b0309]'>
-    <div class="py-8 lg:py-16 lg:px-4 lg:mx-auto lg:max-w-screen-md mx-10">
+    <div id='contact' class="py-8 lg:py-16 lg:px-4 lg:mx-auto lg:max-w-screen-md mx-10">
         <h2 class="heading mb-4 text-5xl  text-center text-gray-900 dark:text-white">Contact Us</h2>
         <form action="https://formspree.io/f/mwkjwbvv" class="space-y-8">
              <div>
